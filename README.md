@@ -54,3 +54,5 @@ Bagian ini merinci arsitektur sistem situs web yang dirancang dengan menggunakan
 
 ### Hubungi Kami
 Bagian terakhir memberikan informasi kontak Harade Apparel yang mencakup nomor telepon, alamat email, akun media sosial, serta lokasi toko, sehingga pelanggan dapat menghubungi Harade Apparel jika memerlukan informasi lebih lanjut.
+
+![alt text](?raw=true)
