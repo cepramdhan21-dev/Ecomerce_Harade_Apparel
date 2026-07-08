@@ -55,4 +55,6 @@ Bagian ini merinci arsitektur sistem situs web yang dirancang dengan menggunakan
 ### Hubungi Kami
 Bagian terakhir memberikan informasi kontak Harade Apparel yang mencakup nomor telepon, alamat email, akun media sosial, serta lokasi toko, sehingga pelanggan dapat menghubungi Harade Apparel jika memerlukan informasi lebih lanjut.
 
-![alt text](?raw=true)
+## 3. KATALOG PRODUK
+
+![alt text](https://github.com/cepramdhan21-dev/Ecomerce_Harade_Apparel/blob/main/Gambar/Katalog%20Produk.png?raw=true)
