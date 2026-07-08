@@ -102,5 +102,6 @@ Nanti kamu setalah cekout dan membayar akan ada tampilan Pembayaran Berhasil. Da
 ![alt text](https://github.com/cepramdhan21-dev/Ecomerce_Harade_Apparel/blob/main/Gambar/Ulasan.png?raw=true)
 
 ## 5. MENU ADMIN
-![alt text](?raw=true)
+![alt text](https://github.com/cepramdhan21-dev/Ecomerce_Harade_Apparel/blob/main/Gambar/Menu%20admin.png?raw=true)
+
 
