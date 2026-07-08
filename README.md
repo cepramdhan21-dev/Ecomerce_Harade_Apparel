@@ -96,3 +96,7 @@ Maka langkah kedua kamu klik opsi keranjang ini, ketika sudah nanti kamu akan di
 ![alt text](https://github.com/cepramdhan21-dev/Ecomerce_Harade_Apparel/blob/main/Gambar/Isi%20data.png?raw=true)
 Langkah ketiga isi data diri kamu dan pilih metode pembayaran lalu lanjut cakout.
 
+### Keempat 
+![alt text](?raw=true)
+Nanti kamu setalh cekout akan 
+
