@@ -11,7 +11,7 @@ Pada bagian bawah navbar, terdapat beberapa kartu produk pilihan (Highlight Prod
 ### "Selamat Siang, selamat datang di Harade Apparel!"
 Bagian ini berfungsi untuk memberikan sambutan kepada pengunjung ketika membuka website, ketika anda mengunjungi di pagi hari maka ucapan selamat akan berbeda menjadi selamat pagi.
 
-![alt text](?raw=true)
+![alt text](https://github.com/cepramdhan21-dev/Ecomerce_Harade_Apparel/blob/main/Gambar/Tentang%20Toko.png?raw=true)
 
 ## 2. TENTANG TOKO
 Menu Tentang Toko adalah halaman yang menyajikan informasi mendalam tentang identitas, profil, strategi bisnis, serta sistem perdagangan elektronik dari Harade Apparel. Halaman ini bertujuan untuk memberikan pengetahuan kepada pengunjung mengenai latar belakang perusahaan, produk yang ditawarkan, sasaran pasar, hingga proses operasional bisnis guna meningkatkan kepercayaan dari pelanggan.
