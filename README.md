@@ -89,4 +89,5 @@ Ketika kamu sudah memilih opsi produk jika di tambahkan ke keranjang kuning maka
 
 ### Kedua
 ![alt text](https://github.com/cepramdhan21-dev/Ecomerce_Harade_Apparel/blob/main/Gambar/Keranjang.png?raw=true)
+
 Maka langkah kedua kamu klik opsi ini, ketika sudah nanti akan 
