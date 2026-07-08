@@ -10,3 +10,15 @@ Pada bagian bawah navbar, terdapat beberapa kartu produk pilihan (Highlight Prod
 
 ### "Selamat Siang, selamat datang di Harade Apparel!"
 Bagian ini berfungsi untuk memberikan sambutan kepada pengunjung ketika membuka website, ketika anda mengunjungi di pagi hari maka ucapan selamat akan berbeda menjadi selamat pagi.
+
+## 2. TENTANG TOKO
+Menu Tentang Toko adalah halaman yang menyajikan informasi mendalam tentang identitas, profil, strategi bisnis, serta sistem perdagangan elektronik dari Harade Apparel. Halaman ini bertujuan untuk memberikan pengetahuan kepada pengunjung mengenai latar belakang perusahaan, produk yang ditawarkan, sasaran pasar, hingga proses operasional bisnis guna meningkatkan kepercayaan dari pelanggan.
+
+### Identitas Perusahaan
+Bagian ini menyajikan informasi mengenai identitas penyusun proyek, yang mencakup nama mahasiswa, NIM, kelas, program studi, fakultas, perguruan tinggi, mata kuliah, serta dosen pengajar. Informasi ini menunjukkan bahwa situs web dibangun sebagai bagian dari tugas akademis.
+
+### Nama Bisnis, Deskripsi, dan Value Proposition
+Di bagian ini terdapat gambaran singkat mengenai Harade Apparel sebagai merek fashion yang menyediakan beragam produk pakaian untuk pria dan wanita dengan desain yang modern, nyaman, dan berkualitas tinggi. Selain itu juga diuraikan mengenai proposisi nilai perusahaan, yaitu kualitas premium, desain yang mengikuti tren, harga yang kompetitif, layanan pelanggan yang responsif, serta kemudahan berbelanja melalui platform perdagangan elektronik.
+
+### Target Market dan Segmentasi Pelanggan
+Bagian ini membahas tentang target pasar Harade Apparel yang fokus pada konsumen dari Generasi Z dan Milenial yang berada dalam rentang usia 17–35 tahun. Segmentasi pelanggan dijelaskan melalui berbagai aspek demografis, geografis, psikografis, dan perilaku konsumen, sehingga strategi pemasaran dapat dilaksanakan dengan lebih tepat dan efektif.
