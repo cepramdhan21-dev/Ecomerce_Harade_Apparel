@@ -82,4 +82,6 @@ Informasi ini memberikan bantuan kepada konsumen untuk menilai produk sebelum me
 Di setiap kartu produk terdapat tombol Masukkan ke Keranjang yang memungkinkan pengguna menambahkan barang yang diinginkan ke dalam keranjang belanja. Setelah tombol tersebut ditekan, produk akan disimpan dalam keranjang agar konsumen bisa melanjutkan berbelanja atau menyelesaikan pembelian.
 
 ## 4. MENU CEKOUT
-![alt text](?raw=true)
+![alt text](https://github.com/cepramdhan21-dev/Ecomerce_Harade_Apparel/blob/main/Gambar/Pilih%20warna.png?raw=true)
+
+Ketika kamu sudah memilih opsi prodak jika di tambahkan ke keranjang kuning maka anda akan di suruh untuk memilih warna dan ukuran, ketika sudah di klik tambah maka otomatis produk di tambahkan ke keranjang kuning.
