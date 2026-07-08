@@ -24,3 +24,18 @@ Di bagian ini terdapat gambaran singkat mengenai Harade Apparel sebagai merek fa
 
 ### Target Market dan Segmentasi Pelanggan
 Bagian ini membahas tentang target pasar Harade Apparel yang fokus pada konsumen dari Generasi Z dan Milenial yang berada dalam rentang usia 17–35 tahun. Segmentasi pelanggan dijelaskan melalui berbagai aspek demografis, geografis, psikografis, dan perilaku konsumen, sehingga strategi pemasaran dapat dilaksanakan dengan lebih tepat dan efektif.
+
+### Analisis Pasar dan Kompetitor
+Bagian ini menyajikan gambaran singkat tentang kemajuan industri pakaian di Indonesia serta pesaing utama Harade Apparel. Di sini juga dijabarkan keunggulan yang dimiliki oleh perusahaan, seperti harga yang lebih bersahabat, desain yang mengikuti perkembangan tren, pelayanan yang bersahabat, serta variasi produk yang komprehensif.
+
+### Strategi Manajemen Produk dan Katalog
+Di bagian ini dijelaskan kategori barang yang ditawarkan, termasuk kemeja, celana, jaket, sepatu, dan kaos. Setiap item dilengkapi dengan rincian spesifikasi, ukuran, bahan, panduan perawatan, serta gambar produk untuk mendukung pelanggan sebelum mereka membuat keputusan pembelian.
+
+### Model Bisnis dan Revenue Stream
+Dalam bagian ini diterangkan bahwa Harade Apparel menerapkan model bisnis Direct-to-Consumer (D2C), yang artinya menjual barang secara langsung kepada pelanggan melalui situs web. Pendapatan dihasilkan dari penjualan barang, program pre-order, bundling paket, pemasaran afiliasi, serta program loyalitas untuk konsumen.
+
+### Strategi Harga, Promosi, dan Diskon
+Bagian ini mencakup pendekatan penetapan harga yang bersaing serta beragam teknik promosi, termasuk media sosial, pemasaran melalui email, pemasaran oleh influencer, iklan Google, penjualan kilat, dan program diskon serta pengiriman gratis untuk menarik minat konsumen.
+
+### Proses Checkout dan Payment Gateway
+Halaman ini merinci langkah-langkah dalam proses pembelian mulai dari memilih produk, menambahkannya ke keranjang, mengisi informasi pelanggan, memilih metode pembayaran, hingga mengonfirmasi pesanan. Terdapat pula berbagai pilihan pembayaran seperti transfer bank, dompet digital, sistem bayar di tempat, dan simulasi gateway pembayaran.
