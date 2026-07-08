@@ -108,7 +108,8 @@ Menu Admin adalah halaman yang diperuntukkan bagi pengelola untuk menjalankan op
 Di halaman login, pengelola diwajibkan untuk mengisi nama pengguna dan kata sandi pada kolom yang sudah disediakan. Setelah sistem berhasil memverifikasi data login tersebut, pengelola akan diarahkan ke halaman Dashboard Admin untuk mengelola berbagai fitur yang ada.
 
 ![alt text](https://github.com/cepramdhan21-dev/Ecomerce_Harade_Apparel/blob/main/Gambar/Pasword.png?raw=true)
-Masukan username dan pasword, username nya adalah Admin dan pasword nya adalah Admin123
+Masukan username dan pasword, username nya adalah Admin dan pasword nya adalah Admin123 nanti kamu akan masuk ke halaman utama admin yaitu bisa mengatur waktu, Tanggal flase sale, mengatur harga, dan stok.
+![alt text](?raw=true)
 
 
 
