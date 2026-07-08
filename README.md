@@ -88,4 +88,5 @@ Di setiap kartu produk terdapat tombol Masukkan ke Keranjang yang memungkinkan p
 Ketika kamu sudah memilih opsi produk jika di tambahkan ke keranjang kuning maka anda akan di suruh untuk memilih warna dan ukuran, ketika sudah di klik tambah maka otomatis produk di tambahkan ke keranjang kuning.
 
 ### Kedua
-![alt text](?raw=true)
+![alt text](https://github.com/cepramdhan21-dev/Ecomerce_Harade_Apparel/blob/main/Gambar/Keranjang.png?raw=true)
+Maka langkah kedua kamu klik opsi ini, ketika sudah nanti akan 
