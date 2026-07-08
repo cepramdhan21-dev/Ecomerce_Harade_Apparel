@@ -97,6 +97,6 @@ Maka langkah kedua kamu klik opsi keranjang ini, ketika sudah nanti kamu akan di
 Langkah ketiga isi data diri kamu dan pilih metode pembayaran lalu lanjut cakout.
 
 ### Keempat 
-![alt text](?raw=true)
-Nanti kamu setalh cekout akan 
+![alt text](https://github.com/cepramdhan21-dev/Ecomerce_Harade_Apparel/blob/main/Gambar/Menu%20pembayaran.png?raw=true)
+Nanti kamu setalah cekout dan membayar akan ada tampilan Pembayaran Berhasil. Dan jika kamu ingin ngasih penilaian atau ulasan klik ikon berikan ulsan nanti di tampilannya ada opsi penilaian.
 
