@@ -103,5 +103,8 @@ Nanti kamu setalah cekout dan membayar akan ada tampilan Pembayaran Berhasil. Da
 
 ## 5. MENU ADMIN
 ![alt text](https://github.com/cepramdhan21-dev/Ecomerce_Harade_Apparel/blob/main/Gambar/Menu%20admin.png?raw=true)
+Menu Admin adalah halaman yang diperuntukkan bagi pengelola untuk menjalankan operasi terhadap seluruh informasi di situs Harade Apparel. Halaman ini dilengkapi dengan mekanisme autentikasi, sehingga hanya individu yang memiliki nama pengguna dan kata sandi yang sah yang diperbolehkan masuk ke dalam dashboard admin. Tujuan dari proses login ini adalah untuk melindungi informasi dan mencegah akses oleh individu yang tidak berwenang.
+Di halaman login, pengelola diwajibkan untuk mengisi nama pengguna dan kata sandi pada kolom yang sudah disediakan. Setelah sistem berhasil memverifikasi data login tersebut, pengelola akan diarahkan ke halaman Dashboard Admin untuk mengelola berbagai fitur yang ada.
+![alt text](?raw=true)
 
 
