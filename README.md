@@ -58,3 +58,25 @@ Bagian terakhir memberikan informasi kontak Harade Apparel yang mencakup nomor t
 ## 3. KATALOG PRODUK
 
 ![alt text](https://github.com/cepramdhan21-dev/Ecomerce_Harade_Apparel/blob/main/Gambar/Katalog%20Produk.png?raw=true)
+
+Menu Katalog Produk adalah halaman yang menunjukkan semua barang yang ditawarkan oleh Harade Apparel. Halaman ini dirancang agar pengguna dapat melihat, menelusuri, dan memilih barang dengan mudah berdasarkan kategori yang disediakan. Setiap barang ditampilkan dalam bentuk kartu yang mencakup informasi penting guna membantu pelanggan sebelum melakukan transaksi.
+
+### Filter Kategori Produk
+Di bagian atas katalog terdapat menu pemfilteran kategori yang membantu pengguna dalam menemukan barang sesuai dengan jenisnya. Kategori yang tersedia mencakup Semua, Kemeja, Celana, Jaket, Sepatu, dan Kaos. Saat pengguna memilih salah satu kategori, sistem akan memperlihatkan barang yang relevan dengan kategori tersebut.
+
+### Daftar Produk
+Di bawah filter kategori terdapat daftar barang yang ditampilkan dalam format grid sehingga lebih rapi dan mudah untuk dilihat. Barang-barang yang ditampilkan antara lain Kemeja Flanel Ori Apparel, Celana Boxy Harade Apparel, Celana Denim Harade Apparel, Kemeja Casual Ori Apparel, dan Jaket Parasit. Desain grid memungkinkan pengguna untuk melihat banyak produk sekaligus tanpa perlu berpindah halaman.
+
+### Informasi Produk
+Setiap kartu barang menyajikan informasi yang mendetail, meliputi:
+Gambar dari produk.
+Nama dari produk.
+Rating atau ulasan dari pelanggan.
+Harga setelah diskon.
+Harga asli yang dicoret sebagai informasi promo.
+Pilihan warna untuk produk tersebut.
+Tombol Tambah ke Keranjang untuk menambahkan barang ke dalam keranjang belanja.
+Informasi ini memberikan bantuan kepada konsumen untuk menilai produk sebelum mengambil keputusan untuk melakukan pembelian.
+
+### Tombol Masukkan ke Keranjang
+Di setiap kartu produk terdapat tombol Masukkan ke Keranjang yang memungkinkan pengguna menambahkan barang yang diinginkan ke dalam keranjang belanja. Setelah tombol tersebut ditekan, produk akan disimpan dalam keranjang agar konsumen bisa melanjutkan berbelanja atau menyelesaikan pembelian.
