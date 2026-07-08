@@ -115,7 +115,9 @@ Masukan username dan pasword, username nya adalah Admin dan pasword nya adalah A
 
 Setelah di atur flash sale di bagian fitur admin maka nanti tampilan beranda akan berubah menjadi seperti di bawah ini.
 
-![alt text](?raw=true)
+![alt text](https://github.com/cepramdhan21-dev/Ecomerce_Harade_Apparel/blob/main/Gambar/Muncul.png?raw=true)
+
+Dengan adanya menu Admin yang dilengkapi sistem login menggunakan username dan password, pengelolaan website Harade Apparel dapat dilakukan secara aman, efektif, dan terstruktur sehingga seluruh data produk, pesanan, serta informasi lainnya dapat dikelola dengan baik oleh administrator yang memiliki hak akses.
 
 
 
