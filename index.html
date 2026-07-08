@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Harade Apparel · E-Commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- ========== NAVIGASI ========== -->
+        <nav class="navbar">
+            <div class="brand">
+                <i class="fas fa-tshirt"></i> 
+                Harade<span>Apparel</span>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="active">Beranda</a>
+                <a href="tentang.html">Tentang Toko</a>
+                <a href="#katalog">Katalog</a>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Cari produk...">
+                </div>
+                <a href="#" class="cart-icon" id="cartIcon">
+                    <i class="fas fa-shopping-bag"></i> 
+                    <span id="cartCount">0</span>
+                </a>
+                <a href="#" class="admin-icon" id="adminIcon">
+                    <i class="fas fa-user-shield"></i>
+                </a>
+            </div>
+        </nav>
+
+        <!-- ========== KERANJANG FLOAT ========== -->
+        <div class="cart-float" id="cartFloat">
+            <i class="fas fa-shopping-basket"></i>
+            <span id="cartFloatCount">0</span>
+        </div>
+
+        <!-- ========== FLASH SALE BANNER - SLIDER OTOMATIS ========== -->
+        <section class="flash-sale-banner" id="flashSaleBanner" style="display:none;">
+            <div class="flash-sale-content">
+                <div class="flash-sale-left">
+                    <div class="flash-sale-icon">🔥</div>
+                    <div class="flash-sale-info">
+                        <h3>FLASH SALE!</h3>
+                        <p id="flashSaleText">Diskon spesial terbatas!</p>
+                        <div class="flash-sale-timer" id="flashSaleTimer"></div>
+                    </div>
+                </div>
+                <div class="flash-sale-right">
+                    <div class="flash-sale-slider" id="flashSaleSlider">
+                        <!-- Akan diisi oleh JS - berganti otomatis setiap 1 menit -->
+                    </div>
+                    <div class="flash-sale-nav">
+                        <button class="flash-nav-btn" id="flashPrevBtn"><i class="fas fa-chevron-left"></i></button>
+                        <span class="flash-counter" id="flashCounter">1/1</span>
+                        <button class="flash-nav-btn" id="flashNextBtn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== HERO SLIDER ========== -->
+        <section class="hero-slider">
+            <div class="hero-item">
+                <img src="https://i.pinimg.com/736x/9c/1b/c5/9c1bc5ce8e0907bd51cbd2ce8594b407.jpg" alt="Koleksi Terbaru" loading="lazy">
+                <h4>🔥 Koleksi Terbaru</h4>
+                <p>Boxy &amp; Cargo Style</p>
+            </div>
+            <div class="hero-item">
+                <img src="https://i.pinimg.com/736x/5e/72/48/5e7248e9146db445ba1c59dc10369188.jpg" alt="Best Seller" loading="lazy">
+                <h4>⭐ Best Seller</h4>
+                <p>Kaos Boxy Premium</p>
+            </div>
+            <div class="hero-item">
+                <img src="https://i.pinimg.com/736x/ee/e7/78/eee7788458d69d3fde6a9bcc286acbcf.jpg" alt="Sepatu Samba" loading="lazy">
+                <h4>👟 Sepatu Samba</h4>
+                <p>5 warna pilihan</p>
+            </div>
+            <div class="hero-item">
+                <img src="https://down-id.img.susercontent.com/file/4c2b0f121ad47a1811e5000408e3d65d" alt="Jaket Parasit" loading="lazy">
+                <h4>🧥 Jaket Parasit</h4>
+                <p>Hitam &amp; Navy</p>
+            </div>
+            <div class="hero-item">
+                <img src="https://i.pinimg.com/1200x/b6/0a/7d/b60a7d585bd8f4647af2acad4ec09fdc.jpg" alt="Rekomendasi" loading="lazy">
+                <h4>✨ Rekomendasi</h4>
+                <p>Style Modern</p>
+            </div>
+            <div class="hero-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPfsILYcUXwiUbJ9Yi44qs1ju5zNB75nMgyTwCw3nBlOARJ_euJFO01Z0Z&s=10" alt="Produk Terlaris" loading="lazy">
+                <h4>🏆 Produk Terlaris</h4>
+                <p>Celana Cargo</p>
+            </div>
+        </section>
+
+        <!-- ========== WELCOME BANNER ========== -->
+        <section class="welcome-banner">
+            <h1 id="welcomeMessage">✨ selamat datang di Harade Apparel</h1>
+            <p>
+                Kami hadir untuk memenuhi kebutuhan Apparel anda dengan mengutamakan kualitas, kenyamanan, dan desain modern. 
+                Melalui platform e-commerce ini, kami berkomitmen memberikan kemudahan berbelanja secara online dengan produk terbaik, 
+                pelayanan ramah, serta proses transaksi aman dan terpercaya.<br><br>
+                Kami harap setiap produk membantu Anda tampil percaya diri &amp; nyaman. 
+                Terima kasih atas kepercayaan kepada Harade Apparel. Selamat berbelanja!
+            </p>
+        </section>
+
+        <!-- ========== FILTER ========== -->
+        <section class="filter-section">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="kemeja">Kemeja</button>
+            <button class="filter-btn" data-filter="celana">Celana</button>
+            <button class="filter-btn" data-filter="jaket">Jaket</button>
+            <button class="filter-btn" data-filter="sepatu">Sepatu</button>
+            <button class="filter-btn" data-filter="kaos">Kaos</button>
+        </section>
+
+        <!-- ========== KATALOG ========== -->
+        <section class="katalog-section" id="katalog">
+            <h2 class="section-title">🛍️ Katalog Produk</h2>
+            <div class="katalog-grid" id="katalogGrid"></div>
+        </section>
+
+        <!-- ========== REKOMENDASI ========== -->
+        <section class="rekomendasi-section">
+            <h2 class="section-title">⭐ Rekomendasi &amp; Best Seller</h2>
+            <div class="rekomendasi-grid" id="rekomendasiGrid"></div>
+        </section>
+
+        <!-- ========== TESTIMONI ========== -->
+        <section class="testimoni-section">
+            <h2 class="section-title">💬 Testimoni Pelanggan</h2>
+            <div class="testimoni-grid" id="testimoniGrid">
+                <!-- Testimoni default -->
+                <div class="testimoni-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Produknya berkualitas banget! Bahannya adem dan nyaman dipakai. Rekomendasi banget!"</p>
+                    <div class="testimoni-author">- Andi Pratama</div>
+                </div>
+                <div class="testimoni-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Pengiriman cepat, packaging rapi, dan produk sesuai dengan foto. Harade Apparel terpercaya!"</p>
+                    <div class="testimoni-author">- Siti Rahayu</div>
+                </div>
+                <div class="testimoni-card">
+                    <div class="stars">⭐⭐⭐⭐</div>
+                    <p>"Designnya keren dan kekinian. Harga terjangkau dengan kualitas premium. Pasti belanja lagi!"</p>
+                    <div class="testimoni-author">- Budi Santoso</div>
+                </div>
+                <div class="testimoni-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Pelayanan ramah dan responsif. Produk yang saya pesan sesuai dengan ukuran. Sangat puas!"</p>
+                    <div class="testimoni-author">- Dini Anggraeni</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== FOOTER ========== -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3><i class="fas fa-tshirt"></i> Harade Apparel</h3>
+                    <p>Fashion modern untuk generasi masa kini</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://wa.me/6281212769203" target="_blank"><i class="fab fa-whatsapp"></i> 081212769203</a>
+                    <a href="mailto:haradeapparel@gmail.com"><i class="fas fa-envelope"></i> haradeapparel@gmail.com</a>
+                    <a href="https://instagram.com/haradeapparel10" target="_blank"><i class="fab fa-instagram"></i> @haradeapparel10</a>
+                    <span><i class="fas fa-map-pin"></i> Jl Cikancung tengah, Cikancung, RT 01 RW 04</span>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Harade Apparel. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- ========== MODAL LOGIN ADMIN ========== -->
+    <div class="admin-login-modal" id="adminLoginModal">
+        <div class="modal-box login-box">
+            <button class="close-modal" id="closeAdminLogin">&times;</button>
+            <h2>🔐 Login Admin</h2>
+            <p style="text-align:center; color:var(--gray); margin-bottom:1rem;">Masukkan username dan password admin</p>
+            <form id="adminLoginForm">
+                <div class="form-group">
+                    <label for="adminUser">Username</label>
+                    <input type="text" id="adminUser" placeholder="Masukkan username" required>
+                </div>
+                <div class="form-group">
+                    <label for="adminPass">Password</label>
+                    <input type="password" id="adminPass" placeholder="Masukkan password" required>
+                </div>
+                <button type="submit" class="btn-checkout">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ========== MODAL ADMIN PANEL ========== -->
+    <div class="admin-panel-modal" id="adminPanelModal">
+        <div class="modal-box admin-box">
+            <button class="close-modal" id="closeAdminPanel">&times;</button>
+            <h2>⚙️ Admin Panel - Harade Apparel</h2>
+            <p style="margin-bottom:1rem; color:var(--gray);">Kelola stok, harga, dan flash sale (1-10 produk)</p>
+            
+            <!-- Flash Sale Settings -->
+            <div class="admin-flash-sale">
+                <h3>🔥 Pengaturan Flash Sale</h3>
+                <div class="flash-sale-settings">
+                    <div class="form-group">
+                        <label>Status Flash Sale</label>
+                        <select id="flashSaleStatus">
+                            <option value="off">Nonaktif</option>
+                            <option value="on">Aktif</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Jam Mulai (HH:MM)</label>
+                        <input type="time" id="flashSaleStart" value="08:00">
+                    </div>
+                    <div class="form-group">
+                        <label>Jam Selesai (HH:MM)</label>
+                        <input type="time" id="flashSaleEnd" value="22:00">
+                    </div>
+                    <div class="form-group">
+                        <label>Diskon (%)</label>
+                        <input type="number" id="flashSaleDiscount" value="20" min="1" max="90">
+                    </div>
+                    <div class="form-group">
+                        <label>Pilih Produk Flash Sale (1-10 produk)</label>
+                        <select id="flashSaleProductSelect" multiple style="height:140px;">
+                            <option value="">-- Pilih Produk (CTRL+Click untuk pilih lebih dari 1) --</option>
+                        </select>
+                        <small style="color:var(--gray); font-size:0.7rem;">* Minimal 1 produk, maksimal 10 produk</small>
+                    </div>
+                    <button class="btn-checkout" id="saveFlashSale" style="margin-top:0.5rem;">Simpan Flash Sale</button>
+                </div>
+            </div>
+
+            <hr style="margin:1.5rem 0; border:1px dashed #c7dfbb;">
+
+            <!-- Stock & Price Settings -->
+            <div class="admin-stock-list" id="adminStockList"></div>
+            <div class="admin-actions">
+                <button class="btn-checkout" id="adminSaveChanges">Simpan Perubahan</button>
+                <button class="btn-checkout" id="adminLogout" style="background:#dc3545;">Logout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== MODAL DETAIL PRODUK ========== -->
+    <div class="detail-modal" id="detailModal">
+        <div class="modal-box detail-box">
+            <button class="close-modal" id="closeDetailModal">&times;</button>
+            <div class="detail-content" id="detailContent">
+                <img src="" alt="" id="detailImg" class="detail-img">
+                <div class="detail-info">
+                    <h2 id="detailTitle">Nama Produk</h2>
+                    <div class="detail-rating" id="detailRating"></div>
+                    <div class="detail-price">
+                        <span class="price" id="detailPrice">Rp0</span>
+                        <span class="coret" id="detailCoret">Rp0</span>
+                    </div>
+                    <div class="detail-stock" id="detailStock">Stok: 0</div>
+                    <div class="detail-material" id="detailMaterial"></div>
+                    <div class="detail-desc" id="detailDesc">
+                        <strong>Deskripsi:</strong> 
+                        <span id="detailDescriptionText">Produk berkualitas tinggi dengan desain modern dan nyaman digunakan sehari-hari.</span>
+                    </div>
+                    <div class="detail-colors">
+                        <strong>Pilihan Warna:</strong>
+                        <div class="color-options" id="detailColors"></div>
+                    </div>
+                    <div class="detail-sizes">
+                        <strong>Pilihan Ukuran:</strong>
+                        <div class="size-options" id="detailSizes">
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="L">L</button>
+                            <button class="size-btn" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    <div class="detail-qty">
+                        <strong>Jumlah:</strong>
+                        <div class="qty-control">
+                            <button class="qty-btn" id="qtyMinus">-</button>
+                            <span id="detailQty">1</span>
+                            <button class="qty-btn" id="qtyPlus">+</button>
+                        </div>
+                    </div>
+                    <button class="btn-add-detail" id="addToCartDetail">+ Tambah ke Keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== MODAL CHECKOUT ========== -->
+    <div class="checkout-modal" id="checkoutModal">
+        <div class="modal-box">
+            <button class="close-modal" id="closeModalBtn">&times;</button>
+            <h2>🛍️ Checkout</h2>
+            <form id="orderForm" novalidate>
+                <div class="form-group">
+                    <label for="custName">Nama Lengkap</label>
+                    <input type="text" id="custName" placeholder="Nama Lengkap" required>
+                </div>
+                <div class="form-group">
+                    <label for="custAddress">Alamat</label>
+                    <input type="text" id="custAddress" placeholder="Alamat lengkap" required>
+                </div>
+                <div class="form-group">
+                    <label for="custPhone">No Handphone</label>
+                    <input type="tel" id="custPhone" placeholder="08xxxxxxxxxx" required>
+                </div>
+                <div class="form-group">
+                    <label for="custPostal">Kode Pos</label>
+                    <input type="text" id="custPostal" placeholder="Kode Pos" required>
+                </div>
+                <div class="form-group">
+                    <label style="font-weight:600;">Pesanan (dari keranjang)</label>
+                    <div id="cartItemsPreview" class="cart-preview"></div>
+                </div>
+                <div class="form-group">
+                    <label style="font-weight:600;">Metode Pembayaran</label>
+                    <div class="pay-options">
+                        <label class="pay-item"><input type="radio" name="payment" value="Cash"> 💵 Cash</label>
+                        <label class="pay-item"><input type="radio" name="payment" value="Mandiri"> 🏦 Mandiri 1310023502703<br><small>a.n Riski Ramdan Pratama</small></label>
+                        <label class="pay-item"><input type="radio" name="payment" value="DANA"> <i class="fas fa-wallet"></i> DANA 081212729203</label>
+                        <label class="pay-item"><input type="radio" name="payment" value="ShopeePay"> <i class="fas fa-store"></i> ShopeePay 081212769203</label>
+                    </div>
+                </div>
+                <button type="button" class="btn-checkout" id="lanjutCheckout">Lanjut Checkout</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ========== MODAL PEMBAYARAN BERHASIL ========== -->
+    <div class="success-modal" id="successModal">
+        <div class="modal-box success-box">
+            <div class="success-icon">✅</div>
+            <h2>🎉 Pembayaran Berhasil!</h2>
+            <p class="success-sub">Terima kasih telah berbelanja di Harade Apparel</p>
+            <div class="success-detail" id="successDetail">
+                <div class="success-row"><span>Nama Pembeli</span><span id="successName">-</span></div>
+                <div class="success-row"><span>Alamat</span><span id="successAddress">-</span></div>
+                <div class="success-row"><span>No Handphone</span><span id="successPhone">-</span></div>
+                <div class="success-row"><span>Metode Pembayaran</span><span id="successPayment">-</span></div>
+                <div class="success-row total-row"><span>Total Pembayaran</span><span id="successTotal">Rp0</span></div>
+                <div class="success-row"><span>Jumlah Item</span><span id="successItems">0</span></div>
+            </div>
+            <div class="success-actions">
+                <button class="btn-success" id="successToUlasan">Berikan Ulasan</button>
+                <button class="btn-success-secondary" id="successToHome">Kembali ke Beranda</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== MODAL ULASAN ========== -->
+    <div class="ulasan-modal" id="ulasanModal">
+        <div class="modal-box ulasan-box">
+            <h2>🙏 Terima Kasih Telah Berbelanja!</h2>
+            <p style="text-align:center; margin-bottom:1.5rem; font-size:1.1rem;">Pesanan Anda berhasil diproses. Berikan ulasan Anda!</p>
+            <form id="ulasanForm">
+                <div class="form-group">
+                    <label>1. Bagaimana kualitas produk kami?</label>
+                    <div class="star-rating" id="starRating">
+                        <span class="star" data-value="1">★</span>
+                        <span class="star" data-value="2">★</span>
+                        <span class="star" data-value="3">★</span>
+                        <span class="star" data-value="4">★</span>
+                        <span class="star" data-value="5">★</span>
+                    </div>
+                    <input type="hidden" id="ratingValue" value="0">
+                </div>
+                <div class="form-group">
+                    <label for="ulasanLayanan">2. Bagaimana layanan kami?</label>
+                    <input type="text" id="ulasanLayanan" placeholder="Tulis pengalaman Anda dengan layanan kami..." required>
+                </div>
+                <div class="form-group">
+                    <label for="ulasanPengalaman">3. Bagaimana pengalaman Anda menggunakan website kami?</label>
+                    <textarea id="ulasanPengalaman" rows="3" placeholder="Ceritakan pengalaman Anda berbelanja di Harade Apparel..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="ulasanKritik">4. Kritik atau saran</label>
+                    <textarea id="ulasanKritik" rows="2" placeholder="Kritik atau saran untuk kami..."></textarea>
+                </div>
+                <button type="submit" class="btn-checkout" id="submitUlasan">Kirim Ulasan</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
