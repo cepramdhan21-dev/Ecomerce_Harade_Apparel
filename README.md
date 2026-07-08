@@ -80,3 +80,6 @@ Informasi ini memberikan bantuan kepada konsumen untuk menilai produk sebelum me
 
 ### Tombol Masukkan ke Keranjang
 Di setiap kartu produk terdapat tombol Masukkan ke Keranjang yang memungkinkan pengguna menambahkan barang yang diinginkan ke dalam keranjang belanja. Setelah tombol tersebut ditekan, produk akan disimpan dalam keranjang agar konsumen bisa melanjutkan berbelanja atau menyelesaikan pembelian.
+
+## 4. MENU CEKOUT
+![alt text](?raw=true)
