@@ -39,3 +39,18 @@ Bagian ini mencakup pendekatan penetapan harga yang bersaing serta beragam tekni
 
 ### Proses Checkout dan Payment Gateway
 Halaman ini merinci langkah-langkah dalam proses pembelian mulai dari memilih produk, menambahkannya ke keranjang, mengisi informasi pelanggan, memilih metode pembayaran, hingga mengonfirmasi pesanan. Terdapat pula berbagai pilihan pembayaran seperti transfer bank, dompet digital, sistem bayar di tempat, dan simulasi gateway pembayaran.
+
+### Strategi SEO, Keamanan, dan Perawatan
+Dalam bagian ini dijelaskan metode untuk mengoptimalkan situs web melalui SEO, pengimplementasian sistem keamanan seperti SSL, validasi data masuk, dan enkripsi kata sandi, serta rencana pemeliharaan situs agar tetap berfungsi dengan baik melalui pembaruan sistem, pengawasan kinerja, dan perbaikan kesalahan.
+
+### Strategi Pemanfaatan Data Analytics
+Di bagian ini, dijelaskan bagaimana data analytics digunakan untuk mengawasi kinerja situs web, perilaku pengguna, penjualan produk, serta melaksanakan A/B testing yang menjadi dasar dalam pengambilan keputusan bisnis.
+
+### Identitas Merek dan Perusahaan
+Bagian ini menguraikan visi dan karakter Harade Apparel sebagai brand fashion yang modern, berfokus pada kualitas, kenyamanan, dan desain yang mengikuti tren terkini, guna memberikan pengalaman belanja yang lebih baik bagi pelanggannya.
+
+### Spesifikasi Sistem E-Commerce
+Bagian ini merinci arsitektur sistem situs web yang dirancang dengan menggunakan HTML5, CSS3, dan JavaScript dengan model Single Page Application (SPA). Selain itu, juga dijelaskan struktur HTML semantik dan fitur utama seperti pencarian produk, penyaringan kategori, troli belanja, checkout, desain responsif, panel admin, penjualan mendadak otomatis, serta sistem ulasan pelanggan.
+
+### Hubungi Kami
+Bagian terakhir memberikan informasi kontak Harade Apparel yang mencakup nomor telepon, alamat email, akun media sosial, serta lokasi toko, sehingga pelanggan dapat menghubungi Harade Apparel jika memerlukan informasi lebih lanjut.
